@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/blog_card/",
+  base: "/blog_card",
   plugins: [react()],
 });

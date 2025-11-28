@@ -8,7 +8,7 @@ function App() {
     <>
       <main className="main">
         <section className="main__section">
-          <img src="/public/illustration-article.svg" alt="img_blog" />
+          <img src="/illustration-article.svg" alt="img_blog" />
         </section>
         <section className="main__section--body">
           <a href="#" onClick={() => setLogrado(!logrado)}>
@@ -21,7 +21,7 @@ function App() {
             structure, content, and presentation.
           </p>
           <div className="main__footer">
-            <img src="/public/image-avatar.webp" alt="avatar" />
+            <img src="/image-avatar.webp" alt="avatar" />
             <p>Greg Hooper</p>
           </div>
         </section>

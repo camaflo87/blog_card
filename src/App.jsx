@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./app.css";
 
+import illustration from "./illustration-article.svg";
+import avatar from "./image-avatar.webp";
+
 function App() {
   const [logrado, setLogrado] = useState(true);
 
@@ -8,7 +11,7 @@ function App() {
     <>
       <main className="main">
         <section className="main__section">
-          <img src="./illustration-article.svg" alt="img_blog" />
+          <img src={illustration} alt="img_blog" />
         </section>
         <section className="main__section--body">
           <a href="#" onClick={() => setLogrado(!logrado)}>
@@ -21,7 +24,7 @@ function App() {
             structure, content, and presentation.
           </p>
           <div className="main__footer">
-            <img src="./image-avatar.webp" alt="avatar" />
+            <img src={avatar} alt="avatar" />
             <p>Greg Hooper</p>
           </div>
         </section>
